@@ -1,0 +1,94 @@
+h1{
+    color: #018080;
+    text-align: center;
+}
+div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 10px;
+}
+.cal-space{
+    margin: auto;
+    width: 450px;
+    height: auto;
+    padding: 55px;
+    margin-top: 40px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    grid-auto-rows: 70px;
+    box-sizing: border-box;
+    grid-template-areas: "a1 a1 a1 a1"
+                         "a9 a10 a11 a2" 
+                         "a12 a13 a14 a3" 
+                         "a15 a16 a17 a4"
+                         "a7 a8 a6 a5";
+}
+.cal-space>div{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: x-large;
+}
+.cal-space>div:hover{
+    background-color: gray;
+    color: white;
+}
+.cal-space>.symbol{
+    color: white;
+    background-color: black;
+}
+
+.cal-space>div:nth-child(1){
+    grid-area: a1;
+}
+.cal-space>div:nth-child(2){
+    grid-area: a2;
+}
+.cal-space>div:nth-child(3){
+    grid-area: a3;
+}
+.cal-space>div:nth-child(4){
+    grid-area: a4;
+}
+.cal-space>div:nth-child(5){
+    grid-area: a5;
+}
+.cal-space>div:nth-child(6){
+    grid-area: a6;
+}
+.cal-space>div:nth-child(7){
+    color: white;
+    background-color: red;
+    grid-area: a7;
+}
+.cal-space>div:nth-child(8){
+    grid-area: a8;
+}
+.cal-space>div:nth-child(9){
+    grid-area: a9;
+}
+.cal-space>div:nth-child(10){
+    grid-area: a10;
+}
+.cal-space>div:nth-child(11){
+    grid-area: a11;
+}
+.cal-space>div:nth-child(12){
+    grid-area: a12;
+}
+.cal-space>div:nth-child(13){
+    grid-area: a13;
+}
+.cal-space>div:nth-child(14){
+    grid-area: a14;
+}
+.cal-space>div:nth-child(15){
+    grid-area: a15;
+}
+.cal-space>div:nth-child(16){
+    grid-area: a16;
+}
+.cal-space>div:nth-child(17){
+    grid-area: a17;
+}
